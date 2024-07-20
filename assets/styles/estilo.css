@@ -13,3 +13,38 @@
 /* =========================
 2 - Header
 ============================ */
+#header{
+    position: relative;
+    height: 100px;
+}
+
+.header-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #347FA6;
+    padding: 20px;
+}
+
+.header-container .logo > img{
+    cursor: pointer;
+}
+
+.header-container .menu-hamburguer{
+    display: flex;
+    flex-flow: column;
+    row-gap: 8px;
+    cursor: pointer;
+}
+
+.header-container .menu-hamburguer > .menu-line{
+    background-color: black;
+    width: 40px;
+    height: 4px;
+    border-radius: 3px;
+}
+
+/* =========================
+3 - Hero
+============================ */
