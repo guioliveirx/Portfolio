@@ -64,7 +64,7 @@ a{
 
 .hero-content{
     display: flex;
-    height: calc(100dvh - 20px);
+    height: calc(100dvh - 39px);
 }
 
 .hero-content .hero-left{
@@ -133,8 +133,145 @@ a{
 
 
 .hero-content .hero-right{
-    background: url("../images/Imagem-Guilherme-Perfil.png") no-repeat center bottom;
-    background-size: 100vh;
+    background: url("../images/Imagem-Guilherme-Perfil.png") no-repeat center bottom/cover;
     flex: 1;
     background-color: #ffffff;
+}
+
+/* =========================
+4 - Footer
+============================ */
+
+footer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #245772;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height: 39px;
+    padding: 10px 0px 10px 10px;
+    z-index: 2;
+}
+
+footer a{
+    color: #a8f308;
+}
+
+footer a:hover{
+    transition: text-shadow 0.5s ease;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.507);
+}
+
+/* =========================
+5 - Responsivity
+============================ */
+@media (width <= 430px){
+    #header{
+        position: initial;
+        background-color: #347FA6;
+        height: auto;
+    }
+    .header-container .menu-hamburguer > .menu-line {
+        background-color: white;
+    }
+    .hero-content{
+        flex-flow: column;
+    }
+    .hero-content .hero-left {
+        flex: none;
+    }
+    .hero-content .hero-left-content{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+        width: 100%;
+    }
+    .hero-left .hero-desc h1{
+        text-align: center;
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .hero-left .hero-title h2{
+        font-size: 14px;
+    }
+    .hero-content{
+        height: calc(100dvh - 121px);
+    }
+    .hero-content .hero-right {
+        background: url("../images/Imagem-Guilherme-Perfil-850px.png") no-repeat center/cover;
+        flex: 2;
+    }
+    .hero-left .hero-buttons .button-cv {
+        letter-spacing: 1px;
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .hero-left .hero-buttons .button-about{
+        letter-spacing: 1px;
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    footer{
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+@media (width > 430px) and (width <= 850px){
+    #header{
+        position: initial;
+        background-color: #347FA6;
+        height: auto;
+    }
+    .header-container .menu-hamburguer > .menu-line {
+        background-color: white;
+    }
+    .hero-content{
+        flex-flow: column;
+    }
+    .hero-content .hero-left {
+        flex: none;
+    }
+    .hero-content .hero-left-content{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+        width: 100%;
+    }
+    .hero-left .hero-desc h1{
+        text-align: center;
+        font-size: 50px;
+        line-height: 70px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .hero-left .hero-title h2{
+        font-size: 16px;
+    }
+    .hero-content{
+        height: calc(100dvh - 121px);
+    }
+    .hero-content .hero-right {
+        background: url("../images/Imagem-Guilherme-Perfil-850px.png") no-repeat center/cover;
+        
+        
+    }
+    .hero-left .hero-buttons .button-cv {
+        padding: 20px 35px;
+    }
+    .hero-left .hero-buttons .button-about{
+        padding: 20px 25px;
+    }
+    footer{
+        height: 30px;
+        font-size: 12px;
+    }
 }
