@@ -79,7 +79,7 @@ a{
 
 .hero-content .hero-left-content{
     max-width: 800px;
-    padding: 20px;
+    padding: 5px 20px 20px 20px;
 
 }
 .hero-left .hero-title h2{
@@ -146,12 +146,12 @@ footer{
     display: flex;
     align-items: center;
     position: relative;
-    background-color: #245772;
+    background-color: #347FA6;
     color: #fff;
     font-weight: 500;
     letter-spacing: 1px;
-    height: 39px;
-    padding: 10px 0px 10px 10px;
+    height: 30px;
+    padding: 20px;
     z-index: 2;
 }
 
@@ -173,7 +173,12 @@ footer a:hover{
         background-color: #347FA6;
         height: auto;
     }
+    .header-container{
+        height: 70px;
+    }
     .header-container .menu-hamburguer > .menu-line {
+        width: 35px;
+        height: 3px;
         background-color: white;
     }
     .hero-content{
@@ -198,28 +203,38 @@ footer a:hover{
         margin-bottom: 20px;
     }
     .hero-left .hero-title h2{
-        font-size: 14px;
+        font-size: 13px;
     }
     .hero-content{
-        height: calc(100dvh - 121px);
+        height: calc(100dvh - 70px);
     }
     .hero-content .hero-right {
         background: url("../images/Imagem-Guilherme-Perfil-850px.png") no-repeat center/cover;
         flex: 2;
     }
+
+    .hero-buttons{
+        width: 100%;
+    }
+
     .hero-left .hero-buttons .button-cv {
+        display: block;
         letter-spacing: 1px;
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 20px;
+        text-align: center;
+        margin-bottom: 10px;
     }
     .hero-left .hero-buttons .button-about{
+        display: block;
         letter-spacing: 1px;
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 10px;
+        text-align: center;
     }
     footer{
-        height: 30px;
-        font-size: 12px;
+        display: none;
+        position: absolute;
     }
 }
 
@@ -228,6 +243,9 @@ footer a:hover{
         position: initial;
         background-color: #347FA6;
         height: auto;
+    }
+    .header-container{
+        height: 70px;
     }
     .header-container .menu-hamburguer > .menu-line {
         background-color: white;
@@ -257,12 +275,10 @@ footer a:hover{
         font-size: 16px;
     }
     .hero-content{
-        height: calc(100dvh - 121px);
+        height: calc(100dvh - 70px);
     }
     .hero-content .hero-right {
         background: url("../images/Imagem-Guilherme-Perfil-850px.png") no-repeat center/cover;
-        
-        
     }
     .hero-left .hero-buttons .button-cv {
         padding: 20px 35px;
@@ -271,7 +287,7 @@ footer a:hover{
         padding: 20px 25px;
     }
     footer{
-        height: 30px;
-        font-size: 12px;
+       display: none;
+       position: absolute;
     }
 }
