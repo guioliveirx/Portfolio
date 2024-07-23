@@ -133,7 +133,7 @@ a{
 
 
 .hero-content .hero-right{
-    background: url("../images/Imagem-Guilherme-Perfil.png") no-repeat center bottom/cover;
+    background: url("../images/Imagem-Guilherme-Perfil.webp") no-repeat center bottom/cover;
     flex: 1;
     background-color: #ffffff;
 }
@@ -209,7 +209,7 @@ footer a:hover{
         height: calc(100dvh - 70px);
     }
     .hero-content .hero-right {
-        background: url("../images/Imagem-Guilherme-Perfil-850px.png") no-repeat center/cover;
+        background: url("../images/Imagem-Guilherme-Perfil-850px.webp") no-repeat center/cover;
         flex: 2;
     }
 
@@ -278,7 +278,7 @@ footer a:hover{
         height: calc(100dvh - 70px);
     }
     .hero-content .hero-right {
-        background: url("../images/Imagem-Guilherme-Perfil-850px.png") no-repeat center/cover;
+        background: url("../images/Imagem-Guilherme-Perfil-850px.webp") no-repeat center/cover;
     }
     .hero-left .hero-buttons .button-cv {
         padding: 20px 35px;
